@@ -13,8 +13,11 @@ Project Overview
 
 ​⚙️ The Workflow
 ​The project follows a 6-step end-to-end data pipeline:
-​Data Ingestion: Monthly sales data loaded into Google BigQuery.
-​RFM Calculation: SQL queries to compute:
+
+​Data Ingestion: 
+Monthly sales data loaded into Google BigQuery.
+​RFM Calculation: 
+SQL queries to compute:
 ​Recency: Days since the last purchase.
 ​Frequency: Total number of orders.
 ​Monetary: Total spend per customer.
