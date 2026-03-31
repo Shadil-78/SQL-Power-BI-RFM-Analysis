@@ -39,7 +39,7 @@ Project Overview
 🚀 Interactive Dashboard Features
 
 <p align="center">
-  <img src="Dashboard.jpg" width="800" title="RFM Analysis Dashboard">
+  <img src="Dashboard.png" width="800" title="RFM Analysis Dashboard">
 </p>
 
 ​Segment Breakdown: A bar chart displaying the volume of customers in each category (e.g., 61 Engaged customers).
