@@ -48,9 +48,9 @@
     SELECT 
     *,
     NTILE(10) OVER(ORDER BY r_rank DESC) as r_score,
-      NTILE(10) OVER(ORDER BY f_rank DESC) as f_score,
-        NTILE(10) OVER(ORDER BY m_rank DESC) as m_score
-        from `rfmanalysis-489700.Sales.rfm_metrics`;
+    NTILE(10) OVER(ORDER BY f_rank DESC) as f_score,
+    NTILE(10) OVER(ORDER BY m_rank DESC) as m_score
+    from `rfmanalysis-489700.Sales.rfm_metrics`;
 
 -- step4:Total score
 
