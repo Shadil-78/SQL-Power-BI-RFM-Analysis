@@ -12,19 +12,15 @@ Project Overview
 * *Methodology:* RFM Segmentation (Quantile-based scoring)
 
 ​⚙️ The Workflow
-​The project follows a 6-step end-to-end data pipeline:
+The project follows a 6-step end-to-end data pipeline:
 
-​Data Ingestion: 
-Monthly sales data loaded into Google BigQuery.
-​RFM Calculation: 
-SQL queries to compute:
-​Recency: Days since the last purchase.
-​Frequency: Total number of orders.
-​Monetary: Total spend per customer.
-​Decile Scoring: Assigned scores on a scale of 1–10 using quantiles (10 = Best, 1 =Worst).
-​Composite Scoring: Summed R, F, and M scores to create a total score ranging from 3 to 30.
-​Customer Segmentation: Mapped scores into behavioral segments such as Champions, Loyal VIPs, and At Risk.
-​Dashboarding: Built an interactive Power BI report to visualize segment distributions and customer-level details.
+1. *Data Ingestion:* Monthly sales data loaded into Google BigQuery.
+2. *RFM Calculation:* SQL queries to compute Recency, Frequency, and Monetary values.
+3. *Decile Scoring:* Assigned scores on a scale of 1–10 using quantiles.
+4. *Composite Scoring:* Summed R, F, and M scores to create a total score (3–30).
+5. *Customer Segmentation:* Mapped scores into behavioral segments (Champions, Loyal VIPs, etc.).
+6. *Dashboarding:* Built an interactive Power BI report to visualize results.
+
 
 📈 Key Insights & Segmentation
 ​Based on the analysis, the customer base is divided into several actionable categories
