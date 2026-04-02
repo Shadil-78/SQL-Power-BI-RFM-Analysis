@@ -41,9 +41,12 @@ The project follows a 6-step end-to-end data pipeline:
   <img src="Dashboard.png" width="800" title="RFM Analysis Dashboard">
 </p>
 
-​Segment Breakdown: A bar chart displaying the volume of customers in each category (e.g., 61 Engaged customers).
-​Detailed Drill-down: A granular table view showing individual CustomerID metrics, individual scores, and their assigned segment.
-​Total Reach: KPI cards showing the total unique customer count (287).
+​Segment Breakdown:
+A bar chart displaying the volume of customers in each category (e.g., 61 Engaged customers).
+​Detailed Drill-down:
+A granular table view showing individual CustomerID metrics, individual scores, and their assigned segment.
+​Total Reach:
+KPI cards showing the total unique customer count (287).
 
 
 
